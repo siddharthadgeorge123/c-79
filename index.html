@@ -1,0 +1,751 @@
+<html>
+    <head>
+        <title> My menu list app </title>
+        <link rel="stylesheet" type = "text/css" href="style.css">
+        <script src = "main.js">
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sid pros</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#starters">BREAKFAST</a></li>
+                    <li><a href="#grills">RICE BOWL</a></li>
+                    <li><a href="#rice">SALAD</a></li>
+                    <li><a href="#meals">CHICKEN</a></li>
+                    <li><a href="#soups">BURGER</a></li>
+                    <li><a href="#deserts">CAKE</a></li>
+                    <li><a href="#juices">JUICE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+    
+    
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+
+    
+    <section id = "starters">
+        <center>
+            <img src="https://images.unsplash.com/photo-1476190292124-6afbe1e0fb07?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img1">
+        </center>   
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> STARTERS </h2>
+            </marquee>
+<br>
+<br>                
+                <h4>1. French Fries ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>2. Corn Masala  ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>3. Baby corn Masala  ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>4. Cheese Corn  ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>5. Cheese Balls  ------------------------------------ ₹ 50</h4>
+               <br>
+                <h4>6. Chunky Mushroom Chatt ------------------------------------ ₹ 50</h4>
+               <br>
+                <h4>7. Paneer Kebab  ----------------------------------- ₹ 50</h4>
+                <br>
+                <h4>8. Dahi Vada  ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>9. Hara Bhara Kebab ------------------------------------ ₹ 50</h4>
+                <br>
+                <h4>10. Aloo Kebab  ------------------------------------ ₹ 50</h4>
+                <br>
+                <span>
+                   
+                    <button onclick="show_menu_list()">
+                      SHOW SIGNATURE MENU ITEMS
+                        </button>
+                        <div id="display_sign_item_in_menu" style="font-size: 25";> 
+                        </div>
+                        
+                <h1> Add New Item In Menu - </h1>
+                <input type="text" placeholder="Add New Menu Item" id = "starters_input">                
+                <button onclick="add_menu_list()" id="btn_add">
+                ADD ITEM TO MENU LIST
+                </button>
+                <div id="display_item_in_menu" style="font-size: 25";> 
+                </div>
+                
+            </span>
+        </center>
+    </section> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "grills">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> GRILLS </h2>
+            </marquee>
+            <h4>1. Roast Paneer Tikka ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>2. Corn Tikka Masala  ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>3. Baby corn Masala Tikka  ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>4. Cheese Corn Tikka  ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>5. Paneer Dhamaka  ------------------------------------ ₹ 85</h4>
+               <br>
+                <h4>6. Vegetarian Sizzler ------------------------------------ ₹ 85</h4>
+               <br>
+                <h4>7. Potato Masala Hot Tikka  ----------------------------------- ₹ 85</h4>
+                <br>
+                <h4>8. Gobi Tikka  ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>9. Capsicum Fry Tikka crunch ------------------------------------ ₹ 85</h4>
+                <br>
+                <h4>10. Mushroom Tikka ------------------------------------ ₹ 85</h4>
+                <br>
+                <span>
+                    
+                    <button onclick="show_menu_list_2()" id="btn_show_2">
+                      SHOW SIGNATURE MENU ITEMS
+                        </button>
+                        <div id="display_sign_item_in_menu_2" style="font-size: 25";> 
+                        </div>
+                        
+                <h1> Add New Item In Menu - </h1>
+                <input type="text" placeholder="Add New Menu Item" id = "grill_input">                
+                <button onclick="add_menu_list_2()" id="btn_add_2">
+                ADD ITEM TO MENU LIST
+                </button>
+                <div id="display_item_in_menu_2" style="font-size: 25";> 
+                </div>
+                        
+            </span>
+        </center>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "rice">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> RICE </h2>
+            </marquee>
+            <h4>1. Plain Rice with Allo Sabzi ------------------------------------ ₹ 150</h4>
+                <br>
+                <h4>2. Corn Rice with Raitha ------------------------------------ ₹ 150</h4>
+                <br>
+                <h4>3. Fried Rice ------------------------------------ ₹ 150</h4>
+                <br>
+                <h4>4. Mushroom Rice with tomato curry  ------------------------------------ ₹ 150</h4>
+                <br>
+                <h4>5. Veg Biriyani ------------------------------------ ₹ 150</h4>
+               <br>
+                <h4>6.  Veg Pulav------------------------------------ ₹ 150</h4>
+               <br>
+                <h4>7. Puliyogare ----------------------------------- ₹ 150</h4>
+                <br>
+                <h4>8. Lemon Rice  ------------------------------------ ₹ 150</h4>
+                <br>
+                <h4>9. Karabath with Raitha ------------------------------------ ₹ 155</h4>
+                <br>
+                <h4>10. Bisibelebath ------------------------------------ ₹ 160</h4>
+                <br>
+                <h4>11. Upma/Uppittu with Kesari bath ------------------------------------ ₹ 180</h4>
+                <br>
+                <span>
+                    
+                    <button onclick="show_menu_list_3()" id="btn_show_3">
+                      SHOW SIGNATURE MENU ITEMS
+                        </button>
+                        <div id="display_sign_item_in_menu_3" style="font-size: 25";> 
+                        </div>
+
+                <h1> Add New Item In Menu - </h1>
+                <input type="text" placeholder="Add New Menu Item" id = "rice_input">                
+                <button onclick="add_menu_list_3()" id="btn_add_3">
+                ADD ITEM TO MENU LIST
+                </button>
+                <div id="display_item_in_menu_3" style="font-size: 25";> 
+                </div>
+            </span>
+        </center>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "meals">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> MEALS </h2>
+            </marquee>
+            <h4>1. Rice with rasam  and papad  ------------------------------------ ₹ 290 </h4>
+                <br>
+                <h4>2. Rice + rasam + curd rice + papad ------------------------------------ ₹ 320 </h4>
+                <br>
+                <h4>3. Chapati + veg kurma + curd rice + butter milk ------------------------------------ ₹ 395 </h4>
+                <br>
+                <h4>4. Veg supreme burger + french fries + combo-coke with  sprite ------------------------------------ ₹ 415 </h4>
+                <br>
+                <h4>5. Paneer Pizza + American Perri perri pizza + garlic bread + fanta ------------------------------------ ₹ 470 </h4>
+               <br>
+                <h4>6.  Puri + Veg curry + Bengali sweet ------------------------------------ ₹ 365 </h4>
+               <br>
+                <h4>7. Butter naan (paneer gravy, butter milk ) ----------------------------------- ₹ 435 </h4>
+                <br>
+                <span>
+                    <button onclick="show_menu_list_4()" id="btn_show_4">
+                        SHOW SIGNATURE MENU LIST
+                          </button>
+                          <div id="display_sign_item_in_menu_4" style="font-size: 25;";> 
+                          </div>
+                  <h1> Add New Item In Menu - </h1>
+                  <input type="text" placeholder="Add New menu Item" id = "meal_input">
+                  <button onclick="add_menu_list_4()" id="btn_add_4">
+                  ADD ITEM TO MENU LIST
+                  </button>
+                  <div id="display_item_in_menu_4" style="font-size: 25;";> 
+                </div>
+            </span>
+            
+        </center>
+        </section> 
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "soups">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> SOUPS </h2>
+            </marquee>
+            <br>
+            <h4>1. Cream Of Tomato  ------------------------------------ ₹ 100 </h4>
+                <br>
+                <h4>2. Corn soup pasta drizzles  ------------------------------------ ₹  135 </h4>
+                <br>
+                <h4>3. Garlic with namkeens ------------------------------------ ₹ 135 </h4>
+                <br>
+                <h4>4. Hot and Sour Soup ------------------------------------ ₹ 135 </h4>
+                <br>
+                <h4>5. Schezwan Soup  ------------------------------------ ₹ 145 </h4>
+               <br>
+                <h4>6.  Mushroom Soup ------------------------------------ ₹ 145 </h4>
+               <br>
+                <h4>7. Vegetable Soup ----------------------------------- ₹ 135 </h4>
+                <br>
+                <h4>8.  Mexican Soup  ------------------------------------ ₹ 145 </h4>
+                <br>
+                <span>
+                    <button onclick="show_menu_list_5()" id="btn_show_5">
+                        SHOW SIGNATURE MENU LIST
+                          </button>
+                          <div id="display_sign_item_in_menu_5" style="font-size: 25;";> 
+                          </div>
+
+                  <h1> Add New Item In Menu - </h1>
+                  <input type="text" placeholder="Add New menu Item" id = "soup_input">
+                  <button onclick="add_menu_list_5()" id="btn_add_5">
+                  ADD ITEM TO MENU LIST
+                  </button>
+                  <div id="display_item_in_menu_5" style="font-size: 25;"; > 
+                </div>
+            </span>
+        </center>
+    
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "deserts">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> DESERTS </h2>
+            </marquee>
+            <br>
+            <h4>1. Mango Icecream  ------------------------------------ ₹ 50 </h4>
+                <br>
+                <h4>2. Chocolate Icecream  ------------------------------------ ₹ 350 </h4>
+                <br>
+                <h4> 3. Strawberry Ice Cream  ------------------------------------ ₹ 50 </h4>
+                <br>
+                <h4>4. Vanilla Icecream ------------------------------------ ₹ 50  </h4>
+                <br>
+                <h4>5. Caramel Ice cream ------------------------------------ ₹ 65 </h4>
+                <br>
+                <h4>6. Chocolate Cake  ------------------------------------ ₹ 90 </h4>
+               <br>
+                <h4>7. Dark Side of the moon ------------------------------------ ₹ 90 </h4>
+               <br>
+                <h4>8.  Gulab Jamun ----------------------------------- ₹ 45 </h4>
+                <br>
+                <h4>9.  Chocolate Fudge  ------------------------------------ ₹ 80 </h4>
+                <br>
+                <h4>10.  Mango Fudge  ------------------------------------ ₹ 70 </h4>
+                <br>
+                <h4>11.  Starwberry Fudge  ------------------------------------ ₹ 70 </h4>
+                <br>
+                <h4>12.  Apple Pie ------------------------------------ ₹ 105 </h4>
+                <br>
+                <h4>13.  Caramel Pie  ------------------------------------ ₹ 110 </h4>
+                <br>
+                <h4>14. Cheese Cake   ------------------------------------ ₹ 120 </h4>
+                <br>
+                <h4>15. Lassi   ------------------------------------ ₹ 65 </h4>
+                <br>
+                <h4>16. Rasgulla   ------------------------------------ ₹ 50 </h4>
+                <br>
+                <span>
+                    <button onclick="show_menu_list_6()" id="btn_show_6">
+                        SHOW SIGNATURE MENU LIST
+                          </button>
+                          <div id="display_sign_item_in_menu_6" style="font-size: 25;";> 
+                          </div>
+                  <h1> Add New Item In Menu - </h1>
+                  <input type="text" placeholder="Add New menu Item" id = "desert_input">
+                  <button onclick="add_menu_list_6()" id = "btn_add_6">
+                  ADD ITEM TO MENU LIST
+                  </button>
+                  <div id="display_item_in_menu_6" style="font-size: 25;";> 
+                </div>
+            </span>
+        </center>
+    
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "juices">
+        <center>
+            <marquee width="50%" direction="right" height="50px">
+                <h2 style="color: black;"> BEVERAGES </h2>
+            </marquee>
+            <br>
+            <h4>1. Coffee  ------------------------------------ ₹ 60 </h4>
+                <br>
+                <h4>2. Tea  ------------------------------------ ₹ 60 </h4>
+                <br>
+                <h4>3. Cold Coffee ------------------------------------ ₹ 75 </h4>
+                <br>
+                <h4>4. Iced Tea ------------------------------------ ₹ 80 </h4>
+                <br>
+                <h4>5. Caramel Coffee  ------------------------------------ ₹ 100 </h4>
+               <br>
+                <h4>6.  Caramel Smoothie ------------------------------------ ₹ 95 </h4>
+               <br>
+                <h4>7. Cappuccino ----------------------------------- ₹ 110 </h4>
+                <br>
+                <h4>8.  Latte  ------------------------------------ ₹ 110 </h4>
+                <br>
+                <h4>9. Expresso  ------------------------------------ ₹ 110 </h4>
+               <br>
+                <h4>10. Mocha ----------------------------------- ₹ 110 </h4>
+                <br>
+                <h4>11.  Macchiato  ------------------------------------ ₹ 110 </h4>
+                <br>
+                <h4>12.  Mango Juice/Milkshake  ------------------------------------ ₹ 35 </h4>
+                <br>
+                <h4>13.  Strawberry Juice/Milkshake  ------------------------------------ ₹ 35 </h4>
+                <br>
+                <h4>14.  Chocolate Juice/Milkshake  ------------------------------------ ₹ 35 </h4>
+                <br>
+                <h4>15.  Sprite/Coke/Fanta  ------------------------------------ ₹ 80 </h4>
+                <br>
+                <span>
+                    <button onclick="show_menu_list_7()" id="btn_show_7">
+                        SHOW SIGNATURE MENU LIST
+                          </button>
+                          <div id="display_sign_item_in_menu_7" style="font-size: 25;";> 
+                          </div>
+                  <h1> Add New Item In Menu - </h1>
+                  <input type="text" placeholder="Add New menu Item" id = "juices_input">
+                  <button onclick="add_menu_list_7()" id="btn_add_7">
+                  ADD ITEM TO MENU LIST
+                  </button>
+                  <div id="display_item_in_menu_7" style="font-size: 25;";> 
+                </div>
+            </span>
+        </center>
+    
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id = "contact">
+        <center>
+            <span>
+        <img class= "image1" src= "icons8-restaurant-30.png">
+                <p class = "contct">
+                    
+                        Name:
+                    </p>
+                    <p class="p1">
+                        The Cafè Of Treats
+                    </p>
+                </span>
+                <br>
+                <br>
+                <span>
+                    <img class= "image1" src= "icons8-phone-30.png">
+                    <p class = "contct">
+                        Contact Number:
+                    </p>
+                    <p class="p1">
+                      8888888888 
+                    </p>
+
+                    
+
+                </span>
+                <br>
+                <br>
+                <span>
+                    <img class = "image1" src= "icons8-new-post-24.png">
+                    <p>
+                        Email Address:
+                    </p>
+                    <p>
+                        nischithaks2010@gmail.com
+                    </p>
+                    
+                </span>
+
+</center>
+            </section>
+        
+        <script async src="https://drv.tw/inc/wd.js"></script></body>
+</html>
